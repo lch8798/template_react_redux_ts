@@ -1,0 +1,55 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.5",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "add": "^2.0.6",
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "typescript": "~4.2.4",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "craco start",
+    "build": "craco build",
+    "lint:ts": "tsc --noEmit",
+    "test": "craco test --runInBand"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.0",
+    "craco-alias": "^3.0.1",
+    "jest-watch-typeahead": "^1.1.0"
+  }
+}

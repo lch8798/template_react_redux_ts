@@ -1,0 +1,6 @@
+.navItem {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-size: 20px;
+  margin-right: 20px;
+}
